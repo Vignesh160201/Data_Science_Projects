@@ -45,7 +45,7 @@ age = st.slider('Age', 18, 100, 29)
 sex = st.selectbox('Sex', ['Male', 'Female'])  # 1 = Male, 0 = Female
 chest_pain = st.selectbox('Chest Pain Type', ['Typical Angina', 'Atypical Angina', 'Non-anginal Pain', 'Asymptomatic'])  # 0–3
 resting_bp = st.slider('Resting Blood Pressure (mm Hg) - Normal Range 120/80 mm Hg', 80, 200, 120)
-cholesterol = st.slider('Cholesterol (mg/dl Normal Range - 60 mg/dL )', 60, 500, 200)
+cholesterol = st.slider('Cholesterol (mg/dl) -  Normal Range - 100 mg/dL ', 60, 600, 100)
 fasting_bs = st.selectbox('Fasting Blood Sugar > 120 mg/dl', ['No', 'Yes'])  # 0 or 1
 resting_ecg = st.selectbox('Resting ECG Results', ['Normal', 'ST-T wave abnormality', 'Left Ventricular Hypertrophy'])  # 0–2
 max_hr = st.slider('Maximum Heart Rate Achieved', 60, 210, 150)
